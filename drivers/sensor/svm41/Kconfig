@@ -1,0 +1,5 @@
+config SVM41
+	bool "Sensirion SVM41"
+	depends on I2C
+	help
+	  Enable driver for SVM41 sensor.

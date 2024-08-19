@@ -1,0 +1,15 @@
+
+description: Sensirion SVM41 air quality sensor board
+
+compatible: "sensirion,svm41"
+
+include: i2c-device.yaml
+
+properties:
+  model:
+    type: string
+    required: true
+    description: |
+      The sensor model in use
+    enum:
+        - "svm41"

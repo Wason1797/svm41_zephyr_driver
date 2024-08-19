@@ -1,0 +1,1 @@
+add_subdirectory_ifdef(CONFIG_SVM41 svm41)
